@@ -1,0 +1,19 @@
+{
+  "scopes": [
+    {
+      "name": "$XSAPPNAME.CustomerViewer",
+      "description": "CustomerViewer"
+    }
+  ],
+  "attributes": [],
+  "role-templates": [
+    {
+      "name": "CustomerViewer",
+      "description": "generated",
+      "scope-references": [
+        "$XSAPPNAME.CustomerViewer"
+      ],
+      "attribute-references": []
+    }
+  ]
+}
